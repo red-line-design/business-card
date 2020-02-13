@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    }
+
+
+body {
+    background-color: rgb(30, 30, 30);
+    background-image: url('red-storm2.svg');
+    background-repeat:repeat;
+    
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  width: 390px;
+  height: 220px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color: #353535;
+  background-image: url('card-back.svg');
+}
+
+
+.front-side{
+  background-image: url('freelance-logo.svg');
+  background-repeat: no-repeat;
+  
+}
+
+.name{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+  padding: 10px
+
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+
+}
+
+
+h3{
+  color:white ;
+  padding-top: 10px;
+}
+
+.technology{
+  color:white;
+}
+
+h5{
+  color:white;
+  padding-top: 10px;
+}
+.icon-container{
+  width:70%;
+  display:grid;
+  position:absolute;
+  top:-20px;
+  left:290px;
+  grid-template-columns: 110px;
+  grid-template-rows: 63px 63px 63px;
+  grid-template-areas: 
+  "a"
+  "b" 
+  "c";
+}
+
+
